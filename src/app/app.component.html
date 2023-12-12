@@ -231,7 +231,8 @@
       <p>Congratulations! Your app is running. 🎉</p>
 
       <h2>Tests</h2>
-      <input class="demo" type="text" [value]="title">
+      <input class="demo" (keyup)="onKeyUp(TitleReference)" type="text" [value]="title" #TitleReference>
+
       <input class="demo" type="text" [value]="'Test'">
 
 
