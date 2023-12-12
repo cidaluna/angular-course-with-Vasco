@@ -11,5 +11,7 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'Angular Course with Vasco';
-
+  onLogoClicked(){
+    alert("The logo was clicked!")
+  }
 }
