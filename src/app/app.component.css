@@ -5,3 +5,7 @@ input.demo{
   font-size: 20px;
   margin-bottom: 8px;
 }
+
+svg{
+  cursor: pointer;
+}
