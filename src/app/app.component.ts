@@ -10,14 +10,16 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Angular Course with Vasco';
+  data = {
+    title: 'Angular Course with Vasco';
+  }
 
   onLogoClicked(){
     alert("The logo was clicked!")
   }
 
   onKeyUp(newTitle: string){
-    this.title = newTitle;
+    this.data.title = newTitle;
   }
 
 }

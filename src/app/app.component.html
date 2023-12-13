@@ -227,11 +227,11 @@
         </defs>
       </svg>
       <!-- Cida Luna -->
-      <h1>Hello, {{ title }}</h1>
+      <h1>Hello, {{ data.title }}</h1>
       <p>Congratulations! Your app is running. 🎉</p>
 
       <h2>Tests</h2>
-      <input class="demo" (keyup)="onKeyUp(TitleReference.value)" type="text" [value]="title" #TitleReference>
+      <input class="demo" (keyup)="onKeyUp(TitleReference.value)" type="text" [value]="data.title" #TitleReference>
 
       <input class="demo" type="text" [value]="'Test'">
 
