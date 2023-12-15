@@ -235,9 +235,11 @@
 
       <input class="demo" type="text" [value]="'Test'">
 
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
+      <h2>{{ rxjsCourse.description }}...</h2>
+
+      <app-card [title]="ngrxCourse.description"></app-card>
+      <app-card [title]="rxjsCourse.description"></app-card>
+      <app-card [title]="coreCourse.description"></app-card>
 
 
     </div>
